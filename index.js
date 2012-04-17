@@ -74,7 +74,7 @@ exports.search = function(opts){
   opts.type = opts.type || "square";
   if(typeof opts.access_token !== "string" && typeof opts.access_token !== "function") throw "You must provide an access token to use facebookSearch";
 
-  var getPhoto = exports.strategies.facebook({fb:"id", type:opts.type});
+  var getPhoto = exports.id({fb:"id", type:opts.type});
 
   return function (user, callback){
     var token = "";
