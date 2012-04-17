@@ -1,3 +1,5 @@
+var request = require("request");
+
 /**
  * Check that the string is one of the valid options
  * 
@@ -44,7 +46,7 @@ exports.id = function(opts){
  * @param [opts.access_token] {string} the property of the user object containing the facebook access token default: "access_token"
  * @param [opts.type] {string} the size of the image to return 'square', 'small', 'normal' or 'large' default: 'square'
  */
-exports.access = function(opts){
+exports.token = function(opts){
   opts = opts || {};
   opts.access_token = opts.access_token || "access_token";
   opts.type = opts.type || "square";

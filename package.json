@@ -1,0 +1,13 @@
+{
+  "name": "passport-photo-facebook",
+  "version": "0.0.1-beta1",
+  "description": "Passport-Photo strategies for retrieving facebook profile pictures.",
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tuskan360/passport-photo-facebook.git"
+  },
+  "dependencies": {
+    "request":"2.9.x"
+  }
+}
