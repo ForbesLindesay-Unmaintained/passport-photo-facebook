@@ -1,5 +1,7 @@
 # Passport Photo Facebook
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/passport-photo-facebook.svg)](https://greenkeeper.io/)
+
 ## Installation
 
     npm install passport-photo-facebook
